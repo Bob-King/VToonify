@@ -1,0 +1,37 @@
+name: vtoonify_env_cuda116
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex
+  - ca-certificates
+  - certifi
+  - faiss
+  - libedit
+  - libfaiss
+  - libfaiss-avx2
+  - libffi
+  - libgcc-ng
+  - libstdcxx-ng
+  - matplotlib-base
+  - pillow
+  - pip
+  - python=3.9
+  - python-lmdb
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.6
+  - setuptools
+  - scikit-image
+  - pip:
+    - cmake
+    - dlib
+    - matplotlib
+    - ninja   
+    - numpy
+    - opencv-python
+    - scipy
+    - tqdm
+    - wget
